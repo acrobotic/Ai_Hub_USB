@@ -10563,7 +10563,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="Ai_Miscellany" deviceset="FRAME-LETTER" device=""/>
+<part name="FRAME1" library="Ai_Miscellany" deviceset="FRAME-LETTER" device="">
+<attribute name="REV" value="1.0"/>
+</part>
 <part name="IC1" library="Ai_IC" deviceset="FE1.1S" device=""/>
 <part name="GND1" library="Ai_Power" deviceset="GND" device=""/>
 <part name="GND2" library="Ai_Power" deviceset="GND" device=""/>

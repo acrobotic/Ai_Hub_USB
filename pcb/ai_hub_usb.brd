@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -674,7 +674,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="FRAME1" library="Ai_Miscellany" package="CREATIVE-COMMONS" value="FRAME-LETTER" x="41.275" y="-1.27" smashed="yes">
-<attribute name="REV" value="" x="85.725" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="1.0" x="85.725" y="-49.53" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC1" library="Ai_IC" package="FE1.1S_SSOP-28" value="FE1.1S" x="41.275" y="22.86" smashed="yes">
 <attribute name="NAME" x="47.498" y="19.431" size="1.27" layer="21" font="vector" ratio="10" align="bottom-center"/>
